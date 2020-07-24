@@ -1,0 +1,36 @@
+﻿<WpaPreferences xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" SavedWith="6.2.9200.16384 (win8_rtm.120725-1247)" AppendNtSymbolPath="" AppendNtSymCachePath="" MaxGraphedLineChartSeries="65000" MaxGraphedGanttChartSeries="65000" xmlns="clr-namespace:Microsoft.Performance.Shell;assembly=Microsoft.Performance.Shell">
+  <WpaPreferences.StartupWindowProfile>
+    <WindowProfile xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.Performance.Shell">
+      <MainSite IsVisible="True">
+        <AutoHideRoot IsVisible="True" DockedHeight="*" DockedWidth="*">
+          <AutoHideChannel Orientation="Vertical" />
+          <AutoHideChannel Dock="Right" Orientation="Vertical" />
+          <AutoHideChannel Dock="Top" />
+          <AutoHideChannel Dock="Bottom" IsVisible="True">
+            <AutoHideGroup IsVisible="True">
+              <DiagnosticConsoleView Name="816a15ce-959c-402c-be03-32048830e1ff" IsVisible="True" xmlns="clr-namespace:Microsoft.Performance.Shell;assembly=Microsoft.Performance.Shell" />
+            </AutoHideGroup>
+          </AutoHideChannel>
+          <DockRoot IsVisible="True" DockedHeight="*" DockedWidth="*">
+            <DockGroup IsVisible="True" DockedHeight="*" DockedWidth="*">
+              <DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
+                <DockGroup IsVisible="True" DockedHeight="*" DockedWidth="*">
+                  <GraphExplorerView Name="2a4916de-4f3b-4345-96f6-191c550eb510" IsVisible="True" DockedWidth="250" xmlns="clr-namespace:Microsoft.Performance.Shell.Graphing;assembly=Microsoft.Performance.Shell" />
+                  <DocumentGroupContainer IsVisible="True" DockedHeight="*" DockedWidth="*">
+                    <DocumentGroup IsVisible="True" />
+                  </DocumentGroupContainer>
+                </DockGroup>
+                <ViewBookmark Name="816a15ce-959c-402c-be03-32048830e1ff" />
+              </DockGroup>
+              <DockGroup Orientation="Vertical" IsVisible="True">
+                <IssuesView Name="706ea541-907b-450e-8ae2-c4937132265c" IsVisible="True" xmlns="clr-namespace:Microsoft.Performance.Shell;assembly=Microsoft.Performance.Shell" />
+                <DetailsView Name="7109fefb-5c4d-413d-b1c2-dace7cd42031" IsVisible="True" xmlns="clr-namespace:Microsoft.Performance.Shell;assembly=Microsoft.Performance.Shell" />
+              </DockGroup>
+            </DockGroup>
+          </DockRoot>
+        </AutoHideRoot>
+      </MainSite>
+    </WindowProfile>
+  </WpaPreferences.StartupWindowProfile>
+  <WpaPreferences.SearchHistory />
+</WpaPreferences>
